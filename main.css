@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    ;
+}
+
+body {
+    background-color: #e7e7e7;
+    /* Adicona espçao do top */
+    margin-top: 100px;
+}
+
+header {
+    /* Faz um elemento ficar ao lado do outro */
+    display: flex;
+    /* Alinha os itens ao centro na vertical*/
+    align-items: center;
+    /* separando os alementos */
+    margin-bottom: 40px;
+
+}
+
+head,
+img {
+    height: 36px;
+    margin-right: 16px;
+}
+
+header,
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    /* Essa definição serve para colocar todo o conteudo dentro da definição anterior */
+    width: 100%;
+    margin: 0% auto;
+}
+form{
+    display: flex;
+    max-height: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+form input {
+    font-size: 24px;
+    background-color: #e7e7e7;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 6px;
+}
+
+form button {
+    background-color: #009432;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    color: aliceblue;
+}
+table{
+    width: 100%;
+}
+table th{
+    border-bottom:  2px solid black;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+table td{
+    padding: 16px 0px;
+    text-align: center;
+    font-size: 20px;
+    border-bottom:  2px solid rgba(0, 0, 0, 0.2);
+}
+table td img{
+    height: 50px;
+}
+.resultado{
+    font-weight: bold;
+    padding: 8px;
+    color: #e7e7e7;
+    background-color: black;
+    border-radius: 3px;
+
+}
+.aprovado{
+    background-color: #009432;
+}
+.reprovado{
+    background-color: red;
+}
